@@ -1,4 +1,4 @@
-let arr = [1+5,"test"];
+let arr = ["graph time"];
 
 for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
