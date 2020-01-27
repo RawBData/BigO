@@ -1,3 +1,7 @@
+/* This code is meanst to be used for scraping tickers off of Yahoos biggest movers winner and losers and then apply to stockCharts.com */
+
+
+
 $.(".Fw(600)")
 
 $(document).ready(function(){
