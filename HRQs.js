@@ -129,7 +129,7 @@ function jumpingOnClouds(c) {
 
 }
 
-
+//Find optimized way to check of every item from one array is in another
 function checkMagazine(magazine, note) {
 
     let noteHash = {};
