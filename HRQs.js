@@ -151,6 +151,5 @@ function checkMagazine(magazine, note) {
     }
 
     console.log(Object.values(noteHash).every( x => x === 0)?"Yes":"No")
-    console.log(Object.values(noteHash).every( x => x === 0)?"Yes":"No")
-    console.log(Object.values(noteHash).every( x => x === 0)?"Yes":"No")
+
 }
