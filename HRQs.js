@@ -85,7 +85,7 @@ function repeatedString(s, n) {
             let numExtraLetters = (n%s.length);
             for(let i=0;i<s.length;i++){
                 let letter = s[i];
-                console.log(letter);
+                // console.log(letter);
                 if(letter==='a'){
                     count += 1;
                     if(i<numExtraLetters){
@@ -108,7 +108,7 @@ function jumpingOnClouds(c) {
         let currentCloud = c[i];
         let nextCloud = c[i+1];
         let nextNextCloud = c[i+2];
-        console.log(i);
+        // console.log(i);
 
         if (nextCloud === 1){
             count+=1;
