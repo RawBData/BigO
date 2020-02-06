@@ -153,3 +153,26 @@ function checkMagazine(magazine, note) {
     console.log(Object.values(noteHash).every( x => x === 0)?"Yes":"No")
 
 }
+
+
+//Given two strings find if there are any substrings. even one letter is considered a substring
+//this is a true/false yes/no scenario so by taking the first word and loading each letter (o(n) time to iterate over the word) into a hash table and then checking
+//the second word letter by letter to see if it exists in the hash table (0(n) time in worst case scenario to iterate and o(1) time to look up in hash)
+function twoStrings(s1, s2) {
+    //given two strings 
+    //do they share a common substring 
+    //ex 1: "cat" and "alf" share "a" so yes
+    //ex: 2: "boy" and "cat" do not share any substrings so "no"
+    let lettersHash = {};
+    for(let i = 0; i < s1.length; i++){
+        let s1Letter = s1[i];
+        if (!lettersHash[s1Letter]) lettersHash[s1Letter] = 1;
+    }
+
+    for(let j = 0; j < s2.length; j++){
+            let s2Letter = s2[j];
+            if (lettersHash[s2Letter]) return "YES"
+    }
+
+    return "NO";
+}
