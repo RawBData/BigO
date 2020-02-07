@@ -44,13 +44,13 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question("What is the string? ", function(s) {
-    rl.question("how many letters to count? ", function(n) {
+rl.question("What is the first string? ", function(s) {
+    rl.question("what is the second string? ", function(n) {
         // console.log(repeatedString(s, n))
         //console.log(jumpingOnClouds([0, 0, 1, 0, 0, 1, 0])) //should return 3
-        checkMagazine(["happy","times","here","there"],["happy","times","here","there","there","bear"])//should false
-        checkMagazine(["happy","times","here","there"],["happy","here","there"]) //should true
-        checkMagazine(["happy","times","here","there","there"],["happy","here","there"]) //should true
+        // checkMagazine(["happy","times","here","there"],["happy","times","here","there","there","bear"])//should false
+        console.log(twoStrings(s, n))
+        
         
         // console.log(`${name}, is a citizen of ${country}`);
 
@@ -163,6 +163,7 @@ function twoStrings(s1, s2) {
     //do they share a common substring 
     //ex 1: "cat" and "alf" share "a" so yes
     //ex: 2: "boy" and "cat" do not share any substrings so "no"
+    console.log("In twoStrings")
     let lettersHash = {};
     for(let i = 0; i < s1.length; i++){
         let s1Letter = s1[i];
