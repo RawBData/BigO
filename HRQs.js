@@ -177,3 +177,11 @@ function twoStrings(s1, s2) {
 
     return "NO";
 }
+
+
+//Two Sum
+function twoSum(s1, s2) {
+    
+
+    return "NO";
+}
