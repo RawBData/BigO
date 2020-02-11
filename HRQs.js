@@ -183,5 +183,5 @@ function twoStrings(s1, s2) {
 function twoSum(s1, s2) {
     
 
-    return "NO";
+    return "YES";
 }
