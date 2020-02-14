@@ -180,6 +180,7 @@ function twoStrings(s1, s2) {
 
 
 //Two Sum
+//Find all the positions where the two numbers in array add up to the same value
 function twoSum(s1, s2) {
     
 
