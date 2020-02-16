@@ -50,6 +50,7 @@ rl.question("What is the first string? ", function(s) {
         //console.log(jumpingOnClouds([0, 0, 1, 0, 0, 1, 0])) //should return 3
         // checkMagazine(["happy","times","here","there"],["happy","times","here","there","there","bear"])//should false
         console.log(twoStrings(s, n))
+        console.log(twoSum(s, n));
         
         
         // console.log(`${name}, is a citizen of ${country}`);
@@ -108,6 +109,7 @@ function jumpingOnClouds(c) {
         let currentCloud = c[i];
         let nextCloud = c[i+1];
         let nextNextCloud = c[i+2];
+        // console.log(i);
         // console.log(i);
 
         if (nextCloud === 1){
