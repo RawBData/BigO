@@ -81,6 +81,7 @@ function repeatedString(s, n) {
     //ex: 'a'
     //ex: ''
     //ex: 'abab'
+     //ex: 'abab'
 
     let count=0;
             let extraLettersCount = 0;
