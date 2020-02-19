@@ -50,7 +50,10 @@ rl.question("What is the first string? ", function(s) {
         //console.log(jumpingOnClouds([0, 0, 1, 0, 0, 1, 0])) //should return 3
         // checkMagazine(["happy","times","here","there"],["happy","times","here","there","there","bear"])//should false
         console.log(twoStrings(s, n))
-        console.log(twoSum(s, n));
+        //console.log(twoSum(s, n));
+        //Array rotation
+        //console.log(rotLeft(s, n));
+
         
         
         // console.log(`${name}, is a citizen of ${country}`);
@@ -189,4 +192,12 @@ function twoSum(s1, s2) {
     
 
     return "YES";
+}
+
+//Left Rotation
+function rotLeft(a, d) {
+    //Ex [1,2,3,4,5] 3 -> [4,5,1,2,3]
+
+    return a.slice(d).concat(a.slice(0,d))
+
 }
