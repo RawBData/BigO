@@ -201,3 +201,38 @@ function rotLeft(a, d) {
     return a.slice(d).concat(a.slice(0,d))
 
 }
+
+function minimumBribes(q) {
+    //only bribe person in front of you 1 being the highest
+    //can only bribe 2 people
+    //if index >= -1 or  of place in line === not moved
+    //if index == -2 of place in line === moved once
+    //if index == -3 of place in line === moved twice
+    //if index <= -4 of place in line == too chaotic
+
+    //ex: 1,2,5,3,7,8,6,4 -> 7
+    /*
+    12345678 -> 1,2,3,4,5,6,7,8->1,2,3,5,4,6,7,8(1)->1,2,5,3,4,6,7,8(2)->
+                1,2,5,3,6,4,7,8(3)->12536748(4)->12537648(5)->12537684(6)->
+                12537865(7)
+    
+                offset would effect everything else -1
+    
+    */
+    let count = 0;
+
+    for (let i = 0; i < q.length; i++){
+        let lineAssignment = q[i];
+        let lineAssignmentDifference = i - lineAssignment;
+
+        if(lineAssignmentDifference <= -4){
+            return "Too chaotic"
+        }else if(lineAssignmentDifference === -3){
+            count+=2;
+        }else if(lineAssignmentDifference === -2){
+            count+=1;
+        }
+    }
+
+    return "test";
+}
