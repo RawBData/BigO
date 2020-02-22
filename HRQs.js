@@ -217,6 +217,9 @@ function minimumBribes(q) {
                 12537865(7)
     
                 offset would effect everything else -1
+
+
+                CURRENTLY SUBOPTIMAL
     
     */
     let count = 0;
