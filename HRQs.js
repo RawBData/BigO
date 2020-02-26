@@ -190,7 +190,7 @@ function twoStrings(s1, s2) {
 //Find all the positions where the two numbers in array add up to the same value
 function twoSum(s1, s2) {
     
-
+    //currently boiler plate code until i solve on HR and then I will move here.
     return "YES";
 }
 
@@ -210,7 +210,6 @@ function minimumBribes(q) {
     //if index == -3 of place in line === moved twice
     //if index <= -4 of place in line == too chaotic
 
-    //ex: 1,2,5,3,7,8,6,4 -> 7
     //ex: 1,2,5,3,7,8,6,4 -> 7
     //ex: 1,2,5,3,7,8,6,4 -> 7
     //ex: 1,2,5,3,7,8,6,4 -> 7
