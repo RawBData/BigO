@@ -29,7 +29,7 @@ let SearchAddress;
 
 //2nd Snippet
 //Then get the range of elements
-newArr = $("a").slice(50,75)
+newArr = $("a").slice(51,75)
 
 list = "";
 for (i=0; i<newArr.length; i++){
