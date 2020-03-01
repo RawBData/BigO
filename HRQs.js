@@ -139,6 +139,7 @@ function jumpingOnClouds(c) {
 //Find optimized way to check of every item from one array is in another
 function checkMagazine(magazine, note) {
     //create the empty notehash
+    //and then load hash with letters
     let noteHash = {};
 
     let noteArr = note;
