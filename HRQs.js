@@ -82,6 +82,7 @@ function repeatedString(s, n) {
     //ex: 'aaaaaaefg'
     //ex: 'abcaefg'
     //ex: 'a'
+    //ex: 'afgz ple $'
     //ex: ''
     //ex: 'abab'
      //ex: 'abab'
