@@ -29,7 +29,7 @@ let SearchAddress;
 
 //2nd Snippet
 //Then get the range of elements
-newArr = $("a").slice(51,75)
+newArr = $("a").slice(60,80)
 
 list = "";
 for (i=0; i<newArr.length; i++){
@@ -43,3 +43,24 @@ SearchAddress = "https://www.stockcharts.com/freecharts/candleglance.html?" + li
 console.log(SearchAddress);
 
 //EHTH VIR ADPT TEAM INTC BLDP CSPCY PAAS TXG PTBRY AU AG
+document.getElementsByClassName("Fw(600)");
+
+
+///Query to gather all in one
+
+let newArr;
+let list;
+let SearchAddress;
+
+newArr = Array.from(document.getElementsByClassName("Fw(600)")).filter(ele=>ele.className === "Fw(600)");
+list = "";
+for (i=0; i<newArr.length; i++){
+    list += newArr[i].innerHTML + ",";
+}
+
+console.log(list);
+//https://www.stockcharts.com/freecharts/candleglance.html?VIR,KKPNF,VIE,DNLI,GSX,WIMHF,MRNA,NVRO|D|0
+
+SearchAddress = "https://www.stockcharts.com/freecharts/candleglance.html?" + list + "|D|0";
+//clickable link for stock details
+console.log(SearchAddress);
