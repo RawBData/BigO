@@ -46,7 +46,8 @@ console.log(SearchAddress);
 document.getElementsByClassName("Fw(600)");
 
 
-///Query to gather all in one
+///Simple DOM manipulatino to gather data
+//Query to gather all in one. best use - copy and paste line 51-67 in console
 
 let newArr;
 let list;
