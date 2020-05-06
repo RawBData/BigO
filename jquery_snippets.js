@@ -49,19 +49,19 @@ document.getElementsByClassName("Fw(600)");
 ///Simple DOM manipulatino to gather data
 //Query to gather all in one. best use - copy and paste line 51-67 in console
 
-let newArr;
-let list;
-let SearchAddress;
+    let newArr;
+    let list;
+    let SearchAddress;
 
-newArr = Array.from(document.getElementsByClassName("Fw(600)")).filter(ele=>ele.className === "Fw(600)");
-list = "";
-for (i=0; i<newArr.length; i++){
-    list += newArr[i].innerHTML + ",";
-}
+    newArr = Array.from(document.getElementsByClassName("Fw(600)")).filter(ele=>ele.className === "Fw(600)");
+    list = "";
+    for (i=0; i<newArr.length; i++){
+        list += newArr[i].innerHTML + ",";
+    }
 
-console.log(list);
-//https://www.stockcharts.com/freecharts/candleglance.html?VIR,KKPNF,VIE,DNLI,GSX,WIMHF,MRNA,NVRO|D|0
+    console.log(list);
+    //https://www.stockcharts.com/freecharts/candleglance.html?VIR,KKPNF,VIE,DNLI,GSX,WIMHF,MRNA,NVRO|D|0
 
-SearchAddress = "https://www.stockcharts.com/freecharts/candleglance.html?" + list + "|D|0";
-//clickable link for stock details
-console.log(SearchAddress);
+    SearchAddress = "https://www.stockcharts.com/freecharts/candleglance.html?" + list + "|D|0";
+    //clickable link for stock details
+    console.log(SearchAddress);
