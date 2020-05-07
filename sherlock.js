@@ -86,6 +86,10 @@
   
   pairs {“a”, “a”}, {"b", "b"}, {“ab”, “ba”}, {“abb”, “bba”}
 
+  input azza = 
+  output 4 
+  
+  pairs {“z”, “z”}, {"a", "a"}, {“za”, “az”}, {“zaa”, “aaz”}
 
 
  */
