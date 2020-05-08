@@ -95,6 +95,7 @@
  */
 function sherlockAndAnagrams(s) {
   console.log("-----------*-----------");
+  console.log("-----------*-----------");
     let count = 0;
     let currentWord;
     for(let i=0;i<s.length;i++){
