@@ -1,0 +1,5 @@
+/*
+    1-sort an array of integers were n=N with N>0, and every element is unique and not repeated
+    2-sort an array of integeers were n>=N,
+    3-sort an array of strings each element has length k in O(knlogn) time (using mergersort to arrange)
+*/
