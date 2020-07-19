@@ -317,6 +317,8 @@ function minimumBribes(q) {
     //if index == -3 of place in line === moved twice
     //if index <= -4 of place in line == too chaotic
     //if index moved everything will be offset by that - number
+    //if index moved everything will be offset by that - number
+    //if index moved everything will be offset by that - number
     let count = 0;
 
     for (let i = 0; i < q.length; i++){
@@ -353,3 +355,10 @@ function main() {
 }
 
  */
+
+ function test(){
+     let x=true;
+     while(x){
+          x = false;
+     }
+ }
