@@ -358,6 +358,7 @@ function main() {
 
  function test(){
      let x=true;
+     let y=0;
      while(x){
           x = false;
      }
