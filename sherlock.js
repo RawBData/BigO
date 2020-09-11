@@ -53,6 +53,7 @@
 // currentJ = 0
 // path = 1 +min(3,1)
 
+// currentO = 0
 // currentN = 0
 // currentM = 0
 // currentL = 0
