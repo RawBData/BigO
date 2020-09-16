@@ -90,6 +90,7 @@
   output 4 
   
   pairs {“a”, “a”}, {"b", "b"}, {“ab”, “ba”}, {“abb”, “bba”}
+  pairs {“a”, “a”}, {"b", "b"}, {“ab”, “ba”}, {“abb”, “bba”}
 
   input azza = 
   output 4 
