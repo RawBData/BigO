@@ -96,6 +96,7 @@
   output 4 
   
   pairs {“z”, “z”}, {"a", "a"}, {“za”, “az”}, {“zaa”, “aaz”}
+  pairs {“z”, “z”}, {"a", "a"}, {“za”, “az”}, {“zaa”, “aaz”}
   Add more pairs
 
  */
