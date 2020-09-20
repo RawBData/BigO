@@ -2,7 +2,8 @@
 Basic Strategy:
 1-Take first element and compare all other elements if they are greater or less than current element and put into greater and less than arrays
 2-recursively call function on each greater or less than array until they are empty or just one
-3-return whole element
+3-return whole element by adding left plus current value plus right
+
 */
 
 let arr = [3,2,1,5,5,9,10];
