@@ -23,6 +23,7 @@ const qksrt = (unsortedArray)=>{
         currentVal<pivotVal? left.push(currentVal) : right.push(currentVal);
     }
     
+    //left array concat pivot number and then concat right array
     return qksrt(left).concat([pivotVal]).concat(qksrt(right));
 }
 
