@@ -16,7 +16,8 @@ const qksrt = (unsortedArray)=>{
     //Array to move higher or lower values to pass into recursion
     let left  = [];
     let right = [];
-    
+
+    //Choose random index to be pivot point
     let pivotVal = unsortedArray[0];
     for(let i=1;i<unsortedArray.length; i++){
         let currentVal = unsortedArray[i];
