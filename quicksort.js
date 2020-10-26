@@ -29,4 +29,6 @@ const qksrt = (unsortedArray)=>{
     return qksrt(left).concat([pivotVal]).concat(qksrt(right));
 }
 
+
+//Display result
 console.log(qksrt(arr));
