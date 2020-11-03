@@ -71,7 +71,7 @@ function soldiers1(arr){
     return count;
 
 }
-
+//Changing arrays
 function soldiers2(arr){
     for (let j = 1; j < array.length-1; j++) {
         const ratingI = array[j-1];
