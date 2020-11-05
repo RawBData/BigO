@@ -31,6 +31,7 @@ minmax = -50
 maxmin = -50
 minmin = -50
 
+Below is the answer
 */
 
 function greatestProduct(arr){
