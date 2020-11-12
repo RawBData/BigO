@@ -101,6 +101,7 @@ function maxOfThree(array) {
     }
   
     console.log(max1,max2,max3,min1,min2)
+    //Retunr maximums and minimums
     return Math.max(max1 * max2 * max2, max1 * min1 * min2);
   }
 
