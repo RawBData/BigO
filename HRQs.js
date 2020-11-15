@@ -210,6 +210,7 @@ function rotLeft(a, d) {
 function minimumBribes(q) {
     //only bribe person in front of you 1 being the highest
     //can only bribe 2 people
+    //below is the different options
     //if index >= -1 or  of place in line === not moved
     //if index == -2 of place in line === moved once
     //if index == -3 of place in line === moved twice
