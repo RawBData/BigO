@@ -228,6 +228,7 @@ function minimumBribes(q) {
 
 
                 CURRENTLY SUBOPTIMAL
+                SUBOptimal
     
     
     let count = 0;
