@@ -126,6 +126,7 @@
 // console.log(howSum(8,[2,3,5]));
 // console.log(howSum(300,[7,14]));
 // console.log(howSum(200,[4,15]));
+// console.log(howSum(100,[2,7]));
 
 const bestSum = (targetNum,numbers,memo={})=>{
     if(targetNum in memo) return memo[targetNum];
