@@ -2,6 +2,7 @@
 Below is a group of problems from memoization chapter
 Also various questions from hacker rank
 with examples and solutions
+first exmample findding pairs
 */
 
 // function countTriplets(arr, r) {
