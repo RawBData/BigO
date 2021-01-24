@@ -92,6 +92,7 @@ first exmample findding pairs
 // console.log(memoGrid(7,3));
 // console.log(memoGrid(8,2));
 // console.log(memoGrid(9,4));
+// console.log(memoGrid(12,44));
 
 // const cansum = (num,arr,memo={})=>{
 //     // console.log(num);
