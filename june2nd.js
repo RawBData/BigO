@@ -31,6 +31,14 @@ minmax = -50
 maxmin = -50
 minmin = -50
 
+[-50,-20,7,9]
+ele    = -20
+maxmax = -20
+medmax = -50
+minmax = -50
+maxmin = -50
+minmin = -50
+
 Below is the answer
 */
 
