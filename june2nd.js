@@ -92,7 +92,7 @@ function maxOfThree(array) {
         max2 = max1;
         max1 = array[i];
       } else if (array[i] > max2) {
-        // Same idea...
+        // Same idea......
         max3 = max2;
         max2 = array[i];
       } else if (array[i] > max3) {
