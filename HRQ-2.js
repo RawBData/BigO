@@ -166,6 +166,7 @@ console.log(bestSum(8,[2,3,5]));
 console.log(bestSum(10,[2,3,5]));
 console.log(bestSum(10,[2,3,5]));
 console.log(bestSum(8,[1,4,5]));
+console.log(bestSum(8,[1,6,8]));
 console.log(bestSum(100,[1,2,5,25]));
 
 
