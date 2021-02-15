@@ -78,6 +78,7 @@ function greatestProduct(arr){
 }
 
 // console.log(greatestProduct([-50,-20,7,9]));
+// console.log(greatestProduct([-50,-20,7,9]));
 
 function maxOfThree(array) {
     // Set up out variables. It's ok if we simply set them all to the first element of the array.
