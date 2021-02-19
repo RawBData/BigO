@@ -89,6 +89,7 @@ function maxOfThree(array) {
       // Handle updating maximum
       if (array[i] > max1) {
         // if this is true, we must update *all* maximum variables, essentially shifting them all down 1.
+        // changing maxs
         max3 = max2;
         max2 = max1;
         max1 = array[i];
