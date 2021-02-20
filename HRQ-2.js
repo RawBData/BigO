@@ -62,6 +62,7 @@ and preparation
 // console.log(memoFib(7));
 // console.log(memoFib(50));
 // console.log(memoFib(100));
+// console.log(memoFib(1000));
 //3,3 -> 6
 // const memoGrid = (n,m,memo={"1,1":1}) => {
 //     let key = n+","+m;
