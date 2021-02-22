@@ -94,6 +94,7 @@ and preparation
 // console.log(memoGrid(4,4));
 // console.log(memoGrid(5,1));
 // console.log(memoGrid(7,3));
+// console.log(memoGrid(6,3));
 // console.log(memoGrid(8,2));
 // console.log(memoGrid(9,4));
 // console.log(memoGrid(12,44));
