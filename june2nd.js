@@ -118,3 +118,4 @@ function maxOfThree(array) {
   console.log(maxOfThree([-50,-20,7,9]));
   console.log(maxOfThree([-30,-10,8,50]));
   console.log(maxOfThree([-20,-11,8,50]));
+  console.log(maxOfThree([-40,-09,6,75]));
