@@ -4,6 +4,7 @@ always getting array
 at least 3 integers
 dont want algo to check for neg numbers and absolute value
 There are duplicate values
+exs
 
 io
 [1,2,3,4,5,-30] = 60
