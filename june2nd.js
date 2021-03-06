@@ -1,4 +1,5 @@
 /*
+Created by Ben Rawner
 QC
 always getting array
 at least 3 integers
