@@ -1,5 +1,6 @@
 /*
 Created by Ben Rawner
+6/2/20
 QC
 always getting array
 at least 3 integers
