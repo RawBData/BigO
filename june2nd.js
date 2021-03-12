@@ -1,6 +1,7 @@
 /*
 Created by Ben Rawner
 6/2/20
+For the purpose of tracking my work
 QC
 always getting array
 at least 3 integers
