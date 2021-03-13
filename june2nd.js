@@ -1,7 +1,7 @@
 /*
 Created by Ben Rawner
 6/2/20
-For the purpose of tracking my work
+For the purpose of tracking my work and providing answers
 QC
 always getting array
 at least 3 integers
