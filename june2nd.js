@@ -10,6 +10,7 @@ There are duplicate values
 exs
 
 io
+
 [1,2,3,4,5,-30] = 60
 [-50,-20,7,9] = 9000
 
@@ -45,6 +46,7 @@ minmin = -50
 
 Below is the answer
 Getting greatestProduct
+and returing the greatest version
 
 */
 
