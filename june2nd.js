@@ -46,7 +46,7 @@ minmin = -50
 
 Below is the answer
 Getting greatestProduct
-and returing the greatest version
+and returing the greatest version in an array
 
 */
 
