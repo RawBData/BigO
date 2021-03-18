@@ -9,7 +9,7 @@ dont want algo to check for neg numbers and absolute value
 There are duplicate values
 exs
 
-io
+inputs and outputs.
 
 [1,2,3,4,5,-30] = 60
 [-50,-20,7,9] = 9000
