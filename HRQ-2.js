@@ -41,6 +41,7 @@ and preparation
 // // console.log(countTriplets([1,5,5,25,125],5));
 // console.log(countTriplets([1,2,1,2,4],2));
 // 0 1 1 2 3 5 8 13 21 39
+// 0 1 1 2 3 5 8 13 21 39
 
 // const memoFib = (n, memo={}) => {
 //     // if (n <= 0) return 0;
