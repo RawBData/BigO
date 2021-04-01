@@ -55,11 +55,12 @@ i/o:
 
 
 Pseudocode:
-create new array
+create new array and 
 create new return array
 iterated over old array
 insert into new array at old array value
-iterate over the new array and only return non null/undefined values
+iterate over the new array and only return 
+non null/undefined values
 
 */
 
