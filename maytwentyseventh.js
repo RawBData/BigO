@@ -51,7 +51,7 @@ output->3
 
 function soldiers1(arr){
     let count  = 0;
-
+    //Double loop not as efficient
     for (let i = 0; i < array.length; i++) {
         const ratingI = array[i];
         if (i+2>=array.length) break;
