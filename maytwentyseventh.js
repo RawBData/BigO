@@ -72,6 +72,7 @@ function soldiers1(arr){
 
 }
 //Changing arrays to move to correct positions and return nothing because the array is mutable
+//start at 1
 function soldiers2(arr){
     for (let j = 1; j < array.length-1; j++) {
         const ratingI = array[j-1];
