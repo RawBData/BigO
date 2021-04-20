@@ -32,4 +32,5 @@ const qksrt = (unsortedArray)=>{
 
 //Display result
 //I also call this pivotsort because you are pivoting off of one value
+//log(n) time
 console.log(qksrt(arr));
