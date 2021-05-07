@@ -118,6 +118,8 @@ add words together
 
 */
 
+//Create a function that reverses an integer 2^31 x -1*2^31 - 1
+
 var reverse = function(x) {
     let multiplyer = x<0? -1 : 1;
     let reversed = parseInt((x+"").split("").reverse().join("")) * multiplyer;
