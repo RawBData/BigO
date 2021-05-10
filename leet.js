@@ -118,7 +118,7 @@ add words together
 
 */
 
-//Create a function that reverses an integer 2^31 x -1*2^31 - 1
+//Create a function that reverses an integer 2^31 x -1*2^31 - 1 bounds
 
 var reverse = function(x) {
     let multiplyer = x<0? -1 : 1;
