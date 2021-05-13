@@ -119,6 +119,8 @@ add words together
 */
 
 //Create a function that reverses an integer 2^31 x -1*2^31 - 1 bounds for both creating and producing solution working
+/* 
+
 
 var reverse = function(x) {
     let multiplyer = x<0? -1 : 1;
@@ -133,3 +135,85 @@ var reverse = function(x) {
 //9646324351
 console.log(reverse(321)); //123
 console.log(reverse(2147483647)); //9646324351
+
+*/
+
+/*
+Implement the myAtoi(string s) function, 
+which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+*/
+var myAtoi = function(s) {
+    //return parseInt(s)
+    //variable to keep track of read in integer
+    let currentNumber = "";
+    //tracking sign variable that will be multiplyed when integer is found. set to 0 to ensure signing happens if + shows up
+    let pnNumber= 0;
+    let numberReadIn = false;
+    let maxValue = Math.pow(2,32)-1;
+    let minValue = Math.pow(2,32)*-1;
+    while (s.length > 0){
+        console.log(
+            maxValue.toString().length,
+            minValue.toString().length
+
+        )
+        let currentLetter = s[0];
+
+
+        if(numberReadIn){
+
+            if ("123456789".includes(currentLetter)){
+                currentNumber = currentNumber + currentLetter
+            }else{
+                break;
+            }
+            
+            if(currentNumber.length > 10){
+                
+            }
+
+        }else{
+            if (" 123456789+-".includes(currentLetter)){
+                if(currentLetter === " "){
+                    
+                }else if(currentLetter === "-"){
+                    pnNumber = -1;
+                    numberReadIn = true;
+                }else if(currentLetter === "+"){
+                    pnNumber = 1;
+                    numberReadIn = true;
+                }else{
+                    currentNumber =  currentLetter;
+                    numberReadIn = true;
+                }
+            }else{
+                break
+            }
+        }
+        s = s.slice(1);
+    }
+
+    pnNumber = pnNumber === -1? -1 : 1;
+    return pnNumber * parseInt(currentNumber) || 0;
+};
+
+/* 
+Input: s = "   -42"
+Output: -42
+Explanation:
+Step 1: "   -42" (leading whitespace is read and ignored)
+            ^
+Step 2: "   -42" ('-' is read, so the result should be negative)
+             ^
+Step 3: "   -42" ("42" is read in)
+               ^
+The parsed integer is -42.
+Since -42 is in the range [-231, 231 - 1], the final result is -42.
+*/
+
+//Create a function finds an integer within 2^31 x -1*2^31 - 1 bounds 
+// clamped to  [-2^31, 2^31 - 1],
+
+
+
+console.log(myAtoi("321")); //123
