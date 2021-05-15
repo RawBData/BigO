@@ -212,7 +212,7 @@ Since -42 is in the range [-231, 231 - 1], the final result is -42.
 */
 
 //Create a function finds an integer within 2^31 x -1*2^31 - 1 bounds 
-// clamped to  [-2^31, 2^31 - 1],
+// clamped to  [-2^31, 2^31 - 1], to make sure within bounds
 
 
 
