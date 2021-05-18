@@ -217,3 +217,4 @@ Since -42 is in the range [-231, 231 - 1], the final result is -42.
 
 
 console.log(myAtoi("321")); //123
+console.log(myAtoi("54321")); //123
