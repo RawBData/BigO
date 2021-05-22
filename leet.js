@@ -217,7 +217,8 @@ this should be the answer
 
 
 
-console.log(myAtoi("321")); //123
-console.log(myAtoi("54321")); //54321
-console.log(myAtoi("  54321")); //54321
-console.log(myAtoi("  687251")); //687251
+console.log(myAtoi("321")); //123 
+console.log(myAtoi("54321")); //54321 
+console.log(myAtoi("  54321")); //54321 
+console.log(myAtoi("  687251")); //687251 
+//
